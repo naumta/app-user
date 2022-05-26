@@ -1,0 +1,14 @@
+.user-container {
+  width: 250px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid blue;
+
+  &:hover {
+  cursor: pointer;
+  background-color: rgb(201, 201, 201);
+  color: blue;
+  }
+}

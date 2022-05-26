@@ -1,0 +1,21 @@
+.post-container {
+  width: 250px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid blue;
+}
+
+button {
+  border: 1px solid blue;
+  padding: 5px;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(196, 193, 193);
+    color: blue;
+  }
+}
+
+

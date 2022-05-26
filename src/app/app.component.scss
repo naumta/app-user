@@ -1,0 +1,21 @@
+.users-container, .user-posts-container, .user-todos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.user-info-container button {
+  width: 150px;
+  font-size: 15px;
+  border: 1px solid blue;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  padding: 5px;
+
+  &:hover {
+    cursor: pointer;
+    color: blue;
+    background-color: rgb(196, 193, 193);
+  }
+}
